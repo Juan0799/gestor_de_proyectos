@@ -1,0 +1,35 @@
+[
+    {
+        "nombre": "Gestor de Tareas",
+        "descripcion": "Gestiona Tareas",
+        "fecha_limite": "2025-06-16",
+        "tareas": [
+            {
+                "nombre": "Crear Módulo de Proyectos",
+                "descripcion": "Creación y edición de proyectos",
+                "responsable": "Juan",
+                "fecha_limite": "2025-06-05",
+                "estado": "EN_PROGRESO"
+            },
+            {
+                "nombre": "Crear Módulo de Tareas",
+                "descripcion": "Creación y edición de Tareas",
+                "responsable": "Joaquín",
+                "fecha_limite": "2025-06-05",
+                "estado": "COMPLETADA"
+            }
+        ]
+    },
+    {
+        "nombre": "Presentación de LINF",
+        "descripcion": "Importante",
+        "fecha_limite": "2025-06-25",
+        "tareas": []
+    },
+    {
+        "nombre": "TestProy",
+        "descripcion": "Proyecto de prueba",
+        "fecha_limite": "2025-06-30",
+        "tareas": []
+    }
+]
