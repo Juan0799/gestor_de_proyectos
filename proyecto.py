@@ -1,6 +1,7 @@
 from datetime import datetime
 from guardado import cargar_datos, guardar_datos
 
+# Función para crear un nuevo proyecto
 def crear_proyecto(nombre, descripcion, fecha_limite):
     try:
         fecha = datetime.strptime(fecha_limite, "%Y-%m-%d").date()

@@ -3,6 +3,8 @@ import os
 
 ARCHIVO_DATOS = "proyectos.json"
 
+# Funciones para cargar y guardar datos en un archivo JSON
+
 def cargar_datos():
     if not os.path.exists(ARCHIVO_DATOS): # Verifica si el archivo existe
         return []

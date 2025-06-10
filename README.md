@@ -68,6 +68,7 @@ python main.py <comando> [argumentos...]
 
 - Las fechas deben tener el formato `AAAA-MM-DD`.
 - Los datos se guardan en el archivo `proyectos.json` en el mismo directorio.
+- Los test se ejecutan con `python -m unittest prueba_gestor.py` en la consola
 
 ---
 
@@ -81,6 +82,6 @@ python main.py actualizar_tarea "Mi Proyecto" "Tarea1" "COMPLETADA"
 python main.py eliminar_tarea "Mi Proyecto" "Tarea1"
 ```
 
-# Autores
+## Autores
 Juan Pablo Villamil
 Joaquín Royes

@@ -30,6 +30,14 @@
         "nombre": "TestProy",
         "descripcion": "Proyecto de prueba",
         "fecha_limite": "2025-06-30",
-        "tareas": []
+        "tareas": [
+            {
+                "nombre": "Tarea 1",
+                "descripcion": "Descr",
+                "responsable": "Juan",
+                "fecha_limite": "2025-06-26",
+                "estado": "EN_PROGRESO"
+            }
+        ]
     }
 ]

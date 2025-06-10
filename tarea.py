@@ -44,6 +44,7 @@ def crear_tarea(nombre_proyecto, nombre_tarea, descripcion, responsable, fecha_l
 
     print(f"Error: No se encontró el proyecto \"{nombre_proyecto}\".")
 
+# Listar las tareas de un proyecto, con opción de filtrar por estado
 def listar_tareas(nombre_proyecto, estado_filtro=None):
     proyectos = cargar_datos()
 
@@ -71,6 +72,7 @@ def listar_tareas(nombre_proyecto, estado_filtro=None):
 
     print(f'Error: No se encontró el proyecto "{nombre_proyecto}".')
 
+# Actualizar el estado de una tarea específica en un proyecto
 def actualizar_tarea(nombre_proyecto, nombre_tarea, nuevo_estado):
     if nuevo_estado not in ESTADOS_VALIDOS:
         print(f"Error: Estado inválido. Debe ser uno de: {', '.join(ESTADOS_VALIDOS)}")
@@ -92,6 +94,7 @@ def actualizar_tarea(nombre_proyecto, nombre_tarea, nuevo_estado):
 
     print(f'Error: No se encontró el proyecto "{nombre_proyecto}".')
 
+# Eliminar una tarea específica de un proyecto
 def eliminar_tarea(nombre_proyecto, nombre_tarea):
     proyectos = cargar_datos()
 
